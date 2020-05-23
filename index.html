@@ -2,35 +2,43 @@
 <html>
 <head>
     <title>Google Homepage</title>
-    <link rel="stylesheet" type="text/css" src="./style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
+
 <body>
     <header>
-        <ul id="nav1" class="nav">
+        <ul class="nav navleft">
             <li><a href="#">About</a></li>
             <li><a href="#">Store</a></li>
         </ul>
 
-        <ul id="nav2" class="nav">
+        <ul class="nav navright">
             <li><a href="#">Gmail</a></li>
             <li><a href="#">Images</a></li>
-            <li><a href="#">Blocks</a></li>
-            <li><a href="#">Profile</a></li>
+            <li><a href="#" id="apps" title="Google apps"><span></span></a></li>
+            <li><a href="#" id="account" title="Google Account"><span></span></a></li>
         </ul>
     </header>
 
     <main>
-
+        <img src="./images/googlelogo_color_272x92dp.png" height="92px" width="272px" id="logo">
+        <form>
+            <input type="text" title="search">
+            <section id="buttons">
+                <input type="submit" value="Google Search" name="search">
+                <input type="submit" value="I'm Feeling Lucky" name="lucky">
+            </section>
+        </form>
     </main>
 
     <footer>
-        <ul id="nav1" class="nav">
+        <ul class="nav navleft">
             <li><a href="#">Advertising</a></li>
             <li><a href="#">Business</a></li>
             <li><a href="#">How Search Works</a></li>
         </ul>
 
-        <ul id="nav2" class="nav">
+        <ul class="nav navright">
             <li><a href="#">Privacy</a></li>
             <li><a href="#">Terms</a></li>
             <li><a href="#">Settings</a></li>

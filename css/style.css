@@ -1,0 +1,92 @@
+@import url(./reset.css);
+
+:root {
+    font-size: 62.5%;
+    body {
+        // Body font size 16px
+        font-size: 1.6rem;
+    }
+}
+body {
+    background: #fff;
+    font-family: arial,sans-serif;
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem 2rem;
+    font-size: 1.3rem;
+}
+/* header end */
+
+/* nav */
+.nav li a {
+    padding: 0 1.2rem;
+    color: #000;
+    opacity: 0.75;
+}
+.nav li a:hover {
+    text-decoration: underline;
+}
+.navleft {
+    display: flex;
+    justify-content: flex-start;
+}
+.navright {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav li a#apps {
+    background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    opacity: .55;
+}
+.nav li a#account {
+    display: absolute;
+    padding: 0;
+}
+.nav li a#account span {
+    display: block;
+    position: relative;
+    background-image: url(https://lh3.google.com/u/0/ogw/ADGmqu_fpt6Ye3mh2VxxO-c3XOWSRst4-OxH08oVamNm=s32-c-mo);
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    top: 0;
+}
+/* nav end */
+
+/* main */
+
+/* main end */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem 2rem;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.5rem;
+}
+/* footer end */
